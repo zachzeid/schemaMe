@@ -33,7 +33,6 @@
         }
     ],
     "eventTime": "2023-07-19T21:33:41Z",
-    "eventFuck": "NewFieldWhoDis?",
     "eventSource": "cloudtrail.amazonaws.com",
     "eventName": "StopLogging",
     "awsRegion": "us-east-1",
