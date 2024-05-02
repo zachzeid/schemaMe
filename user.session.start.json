@@ -5,6 +5,7 @@
     "task_name": "str",
     "vendor_device_id": "str",
     "customer_id": "str",
+    "hi": "str",
     "message": {
         "actor": {
             "id": "str",
