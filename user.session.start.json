@@ -1,0 +1,116 @@
+{
+    "expel_guid": "str",
+    "plugin_slug": "str",
+    "task_id": "str",
+    "task_name": "str",
+    "vendor_device_id": "str",
+    "customer_id": "str",
+    "message": {
+        "actor": {
+            "id": "str",
+            "type": "str",
+            "alternateId": "str",
+            "displayName": "str",
+            "detailEntry": "NoneType"
+        },
+        "client": {
+            "userAgent": {
+                "rawUserAgent": "str",
+                "os": "str",
+                "browser": "str"
+            },
+            "zone": "str",
+            "device": "str",
+            "id": "NoneType",
+            "ipAddress": "str",
+            "geographicalContext": {
+                "city": "str",
+                "state": "str",
+                "country": "str",
+                "postalCode": "NoneType",
+                "geolocation": {
+                    "lat": "float",
+                    "lon": "float"
+                }
+            }
+        },
+        "device": "NoneType",
+        "authenticationContext": {
+            "authenticationProvider": "NoneType",
+            "credentialProvider": "NoneType",
+            "credentialType": "NoneType",
+            "issuer": "NoneType",
+            "interface": "NoneType",
+            "authenticationStep": "int",
+            "externalSessionId": "str"
+        },
+        "displayMessage": "str",
+        "eventType": "str",
+        "outcome": {
+            "result": "str",
+            "reason": "str"
+        },
+        "published": "str",
+        "securityContext": {
+            "asNumber": "int",
+            "asOrg": "str",
+            "isp": "str",
+            "domain": "str",
+            "isProxy": "bool"
+        },
+        "severity": "str",
+        "debugContext": {
+            "debugData": {
+                "requestId": "str",
+                "dtHash": "str",
+                "requestUri": "str",
+                "threatSuspected": "str",
+                "url": "str",
+                "logOnlySecurityData": "str"
+            }
+        },
+        "legacyEventType": "str",
+        "transaction": {
+            "type": "str",
+            "id": "str",
+            "detail": {}
+        },
+        "uuid": "str",
+        "version": "str",
+        "request": {
+            "ipChain": [
+                {
+                    "ip": "str",
+                    "geographicalContext": {
+                        "city": "str",
+                        "state": "str",
+                        "country": "str",
+                        "postalCode": "NoneType",
+                        "geolocation": {
+                            "lat": "float",
+                            "lon": "float"
+                        }
+                    },
+                    "version": "str",
+                    "source": "NoneType"
+                },
+                {
+                    "ip": "str",
+                    "geographicalContext": {
+                        "city": "str",
+                        "state": "str",
+                        "country": "str",
+                        "postalCode": "str",
+                        "geolocation": {
+                            "lat": "float",
+                            "lon": "float"
+                        }
+                    },
+                    "version": "str",
+                    "source": "NoneType"
+                }
+            ]
+        },
+        "target": "NoneType"
+    }
+}
