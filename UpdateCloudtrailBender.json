@@ -1,0 +1,59 @@
+{
+    "eventVersion": "str",
+    "userIdentity": {
+        "type": "str",
+        "principalId": "str",
+        "arn": "str",
+        "accountId": "str",
+        "accessKeyId": "str",
+        "userName": "str",
+        "sessionContext": {
+            "attributes": {
+                "creationDate": "str",
+                "mfaAuthenticated": "str"
+            }
+        }
+    },
+    "clickAround": [
+        {
+            "userIdentity": {
+                "type": "str",
+                "principalId": "str",
+                "arn": "str",
+                "accountId": "str",
+                "accessKeyId": "str",
+                "userName": "str",
+                "sessionContext": {
+                    "attributes": {
+                        "creationDate": "str",
+                        "mfaAuthenticated": "str"
+                    }
+                }
+            }
+        }
+    ],
+    "eventTime": "str",
+    "eventSource": "str",
+    "eventName": "str",
+    "awsRegion": "str",
+    "pooper": "str",
+    "sourceIPAddress": "str",
+    "userAgent": "str",
+    "requestParameters": {
+        "name": "str"
+    },
+    "responseElements": "str",
+    "requestID": "str",
+    "eventID": "str",
+    "readOnly": "str",
+    "eventType": "str",
+    "managementEvent": "str",
+    "recipientAccountId": "str",
+    "eventCategory": "str",
+    "tlsDetails": {
+        "tlsVersion": "str",
+        "cipherSuite": "str",
+        "clientProvidedHostHeader": "str"
+    },
+    "sessionCredentialFromConsole": "str"
+}
