@@ -3,7 +3,7 @@
     "userIdentity": {
         "type": "str",
         "principalId": "str",
-        "arn": "str",
+        "arpn": "str",
         "accountId": "str",
         "accessKeyId": "str",
         "userName": "str",
