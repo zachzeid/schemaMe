@@ -1,58 +1,58 @@
 {
-    "eventVersion": "1.09",
+    "eventVersion": "str",
     "userIdentity": {
-        "type": "IAMUser",
-        "principalId": "EXAMPLE6E4XEGITWATV6R",
-        "arn": "arn:aws:iam::123456789012:user/Mary_Major",
-        "accountId": "123456789012",
-        "accessKeyId": "AKIAIOSFODNN7EXAMPLE",
-        "userName": "Mary_Major",
+        "type": "str",
+        "principalId": "str",
+        "arn": "str",
+        "accountId": "str",
+        "accessKeyId": "str",
+        "userName": "str",
         "sessionContext": {
             "attributes": {
-                "creationDate": "2023-07-19T21:11:57Z",
-                "mfaAuthenticated": "false"
+                "creationDate": "str",
+                "mfaAuthenticated": "str"
             }
         }
     },
     "clickAround": [
         {
             "userIdentity": {
-                "type": "IAMUser",
-                "principalId": "EXAMPLE6E4XEGITWATV6R",
-                "arn": "arn:aws:iam::123456789012:user/Mary_Major",
-                "accountId": "123456789012",
-                "accessKeyId": "AKIAIOSFODNN7EXAMPLE",
-                "userName": "Mary_Major",
+                "type": "str",
+                "principalId": "str",
+                "arn": "str",
+                "accountId": "str",
+                "accessKeyId": "str",
+                "userName": "str",
                 "sessionContext": {
                     "attributes": {
-                        "creationDate": "2023-07-19T21:11:57Z",
-                        "mfaAuthenticated": "false"
+                        "creationDate": "str",
+                        "mfaAuthenticated": "str"
                     }
                 }
             }
         }
     ],
-    "eventTime": "2023-07-19T21:33:41Z",
-    "eventSource": "cloudtrail.amazonaws.com",
-    "eventName": "UpdateLogging",
-    "awsRegion": "us-east-1",
-    "sourceIPAddress": "192.0.2.0",
-    "userAgent": "aws-cli/2.13.5 Python/3.11.4 Linux/4.14.255-314-253.539.amzn2.x86_64 exec-env/CloudShell exe/x86_64.amzn.2 prompt/off command/cloudtrail.start-logging",
+    "eventTime": "str",
+    "eventSource": "str",
+    "eventName": "str",
+    "awsRegion": "str",
+    "sourceIPAddress": "str",
+    "userAgent": "str",
     "requestParameters": {
-        "name": "myTrail"
+        "name": "str"
     },
-    "responseElements": "",
-    "requestID": "9d478fc1-4f10-490f-a26b-EXAMPLE0e932",
-    "eventID": "eae87c48-d421-4626-94f5-EXAMPLEac994",
-    "readOnly": "",
-    "eventType": "AwsApiCall",
-    "managementEvent": "",
-    "recipientAccountId": "123456789012",
-    "eventCategory": "Management",
+    "responseElements": "str",
+    "requestID": "str",
+    "eventID": "str",
+    "readOnly": "str",
+    "eventType": "str",
+    "managementEvent": "str",
+    "recipientAccountId": "str",
+    "eventCategory": "str",
     "tlsDetails": {
-        "tlsVersion": "TLSv1.2",
-        "cipherSuite": "ECDHE-RSA-AES128-GCM-SHA256",
-        "clientProvidedHostHeader": "cloudtrail.us-east-1.amazonaws.com"
+        "tlsVersion": "str",
+        "cipherSuite": "str",
+        "clientProvidedHostHeader": "str"
     },
-    "sessionCredentialFromConsole": "true"
+    "sessionCredentialFromConsole": "str"
 }
