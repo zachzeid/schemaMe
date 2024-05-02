@@ -22,6 +22,7 @@
             "zone": "str",
             "device": "str",
             "id": "NoneType",
+            "demo": "bool",
             "ipAddress": "str",
             "geographicalContext": {
                 "city": "str",
