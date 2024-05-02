@@ -36,6 +36,7 @@
     "eventSource": "str",
     "eventName": "str",
     "awsRegion": "str",
+    "pooper": "str",
     "sourceIPAddress": "str",
     "userAgent": "str",
     "requestParameters": {
